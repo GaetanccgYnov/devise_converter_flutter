@@ -1,16 +1,41 @@
-# convertisseur
+# Convertisseur de Devises Flutter
 
-A new Flutter project.
+Ce projet est une application Flutter qui permet aux utilisateurs de consulter les taux de change actuels et de convertir des montants entre différentes devises.
 
-## Getting Started
+## Fonctionnalités
 
-This project is a starting point for a Flutter application.
+- Affichage des devises disponibles et de leurs taux de change.
+- Conversion de montants entre deux devises sélectionnées.
+- Mise à jour dynamique des conversions et des taux de change.
 
-A few resources to get you started if this is your first Flutter project:
+## Technologies Utilisées
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Flutter: Pour le développement de l'application mobile multiplateforme.
+- API Frankfurter: Utilisée pour récupérer les taux de change actuels.
+- Package `http`: Pour effectuer des requêtes réseau.
+- Package `intl`: Pour formater les nombres selon les conventions locales.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Démarrage
+
+Pour lancer le projet sur votre machine locale pour des fins de développement et de test, suivez ces étapes :
+
+1. Clonez ce dépôt sur votre machine locale :
+
+```bash
+git clone https://github.com/votre_nom_d_utilisateur/votre_projet.git
+
+cd votre_projet
+```
+
+2. Ouvrez le répertoire du projet dans votre éditeur de code.
+3. Installez les dépendances :
+    ```bash
+    flutter pub get
+    ```
+4. Lancez l'application sur un émulateur ou un appareil connecté :
+
+    ```bash
+    flutter run
+    ```
+   
+5. Profitez de l'application !
